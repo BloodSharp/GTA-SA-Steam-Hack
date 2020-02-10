@@ -1,0 +1,44 @@
+#include <windows.h>
+#include "loader.h"
+A ICON "007.ico"
+IDM_LOGOBMP BITMAP "CHLogo.bmp"
+
+IDM_LOADER DIALOGEX 150, 150, 199, 214
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_WINDOWEDGE
+CAPTION "Crianosfera Hack - BloodSharp"
+FONT 8, "Verdana", 0, 0, 0x1
+BEGIN
+    CONTROL         257,-1,"Static",SS_BITMAP,0,0,366,314
+    DEFPUSHBUTTON   "Load",IDM_LOAD,0,190,199,24,BS_FLAT,WS_EX_TRANSPARENT
+END
+
+1 VERSIONINFO
+ FILEVERSION 2,1,0,1
+ PRODUCTVERSION 2,1,0,1
+ FILEFLAGSMASK 0x0L
+ FILEFLAGS 0x0L
+ FILEOS 0x0L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "2c0a04e4"
+        BEGIN
+            VALUE "CompanyName", "Inline EAX"
+            VALUE "FileDescription", "Crianosfera Hack for Counter-Strike Non-Steam"
+            VALUE "FileVersion", "v2.1"
+            VALUE "InternalName", "Crianosfera.exe"
+            VALUE "LegalCopyright", "Agustín Alejandro dos Santos - BloodSharp"
+            VALUE "LegalTrademarks", "Inline EAX"
+            VALUE "OriginalFilename", "Crianosfera.exe"
+            VALUE "ProductName", "Crianosfera Hack Hurricane"
+            VALUE "ProductVersion", "v2.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x2c0a, 1252
+    END
+END

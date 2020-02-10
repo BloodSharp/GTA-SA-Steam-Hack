@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1393981160 source:c:\users\aads_\documents\crianosfera-2-gcc\loader\loader.rc
+	<windows.h>
+	"loader.h"
+
+1359418480 c:\users\aads_\documents\crianosfera-2-gcc\loader\loader.h
+
+1580674563 source:c:\users\aads_\documents\crianosfera-2-gcc\loader\loader.cpp
+	<windows.h>
+	<stdio.h>
+	"loader.h"
+	"xorstr.h"
+
+1321627708 c:\users\aads_\documents\crianosfera-2-gcc\loader\xorstr.h
+
